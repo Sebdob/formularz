@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<<<<<<< HEAD
+    <head>
+        <title>HTML Forms</title>
+    </head>
+      <body>
+        <h1>Html Forms</h1>
+        <form>
+            <label for="username">Enter username:</label>
+            <input type="text" id="username" name="username" placeholder="your name..." required> 
+            <!-- name username for backends  -->
+            <br><br>
+            <label for="email">Enter email:</label>
+            <input type="email" id="email" name="email" placeholder="your email..." required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password>" placeholder="your password..." required>
+        
+
+        
+            <p>Select your age:</p>
+            <input type="radio" name="age" value="0-25" id="option-1">
+            <label for="option-1">0-25</label>
+            <input type="radio" name="age" value="26-50" id="option-2">
+            <label for="option-2">26-50</label>
+            <input type="radio" name="age" value="51+" id="option-3">
+            <label for="option-3">51+</label>
+
+            <br><br><br>
+
+            <label for="question">Security question</label>
+            <select name="question" id="question">
+                <option value="q1">What colour are your favourite pair of socks?</option>
+                <option value="q2">If you could be vegetable, what it be?</option>
+                <option value="q3">What is favourite song?</option>
+            </select>
+            <br><br>
+            <label for="answer">Security question anserw:</label>
+            <input type="text" id="answer" name="answer">
+
+            <br><br>
+            <label for="bio">Enter you bio:</label><br>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+            <br>
+            <input type="submit" value="submit the form">
+        
+        </form>
+      </body>
+</html>
+=======
+<head>
+ <title>Register</title>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+ <div class="container">
+  <h1>Register Here</h1>
+  <div class="container-fluid">
+   <form class="form-group">
+    <input type="text" name="Name" placeholder="Name" class="form-control" >
+    <br>
+    <input type="email" name="email" placeholder="Email" class="form-control" >
+    <br>
+    <input type="tel" name="phone" placeholder="Phone" class="form-control" >
+    <br><br>
+    
+    
+    <input type="text" name="company" placeholder="Company name" class="form-control" >
+    <br>
+    <input type="text" name="postition" placeholder="Position" class="form-control" >
+    <select class="form-control">
+     <option>Select Gender</option>
+     <option>Male</option>
+     <option>Female</option>
+    </select>
+    <br>
+    <input type="passowrd" name="password" placeholder="Password" class="form-control" required>
+    <br>
+    <button type="submit" class="btn">Register</button>
+   </form>
+  </div>
+ </div>
+</body>
+</html>
+>>>>>>> 5dda1e3d970615bb9582a8aa4fab8b5c0980f99c
